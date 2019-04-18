@@ -68,3 +68,7 @@ footer {
 table {
     border: none;
 }
+
+span {
+    margin: 10px;
+}
