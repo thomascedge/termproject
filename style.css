@@ -63,6 +63,8 @@ footer {
 
 footer {
     padding-bottom: 50px;
+    font-size: 10px;
+    text-align: center;
 }
 
 table {
@@ -71,4 +73,15 @@ table {
 
 span {
     margin: 10px;
+}
+
+.title {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.title > h1 {
+    font-size: 100px;
 }
