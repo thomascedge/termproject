@@ -14,11 +14,17 @@
             <h1 id="tweet">Here is a collection of <u>user tweets</u> from our Kaggle database. Some are a bit explicit (parental advisory), some hate Trump.</h1>
         </div>
 
-        <div class="middle">
+        <div class="middle title">
             <div class="container title">
-                <h1 class="heading">Determining Voter Demographics from Twitter Data Sentiment</h1>
+                <h1 class="heading">Determining Voter Demographics from Twitter Sentiment Data</h1>
             </div>
 
+        </div>
+
+        <nav>
+        </nav>
+
+        <div class="middle">
             <div class="container">
                 <div>
                     <h3 class="heading">Abstract</h3>
@@ -57,19 +63,19 @@
                         Our Tweets come from a Kaggle dataset with around
                         30,000 tuples of tweets and information relating to the
                         user. Information regarding phone type, time zone,
-                        language, city, and account type were parsed from users’
+                        language, city, and account type were parsed from users&apos;
                         biography sections on their profiles and tweets themselves.
                         <br><br>
 
                         In order to gain a more accurate reading from our
                         sentiment analysis, we preprocessed our data by making
                         all letters lower case and removing stop words, words
-                        such as ”as”, ”the”, ”under”, and ”which”, provided by
-                        the NLTK library. We then removed all traces of webpage
-                        links (http), mentions (@), hashtags (#), and the acronym
-                        retweet (RT).<br><br>
+                        such as &quot;as&quot;, &quot;the&quot;, &quot;under&quot;,
+                        and &quot;which&quot;, provided by the NLTK library. We then
+                        removed all traces of webpage links (http), mentions (@),
+                        hashtags (#), and the acronym retweet (RT).<br><br>
 
-                        Using TextBlob’s sentiment analysis function, we fed
+                        Using TextBlob&apos;s sentiment analysis function, we fed
                         each, individual tweet through the function and scored
                         it as positive, negative, or neutral with values of 1,
                         -1, and 0 respectively. These values were then counted

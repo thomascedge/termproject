@@ -76,12 +76,27 @@ span {
 }
 
 .title {
-    padding-left: 0px;
-    padding-right: 0px;
+    padding: 0px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     margin-left: 0px;
     margin-right: 0px;
+    background-color: #000000;
 }
 
 .title > h1 {
     font-size: 100px;
+    color: #FFFFFF;
+}
+
+nav {
+    background-color: #FF0000;
+    height: 50px;
+    text-align: center;
+}
+
+nav > a {
+    color: #FFFFFF;
+    font-size: 30px;
+
 }
