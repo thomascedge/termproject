@@ -9,7 +9,7 @@
         <title>term project</title>
     </head>
 
-    <body>
+    <body oncopy="return false" oncut="return false" onpaste="return false">
         <div class="front">
             <h1 id="tweet">Here is a collection of <u>user tweets</u> from our Kaggle database. Some are a bit explicit (parental advisory), some hate Trump.</h1>
         </div>
@@ -132,10 +132,6 @@
 
                     <!-- Phone Type -->
                     <h5 class="heading">Phone Type</h5>
-                    <p>
-                        There is not much that could be said about phone type,
-                        though we thought it would be worth mentioning.
-                    </p>
 
                     <table class="table">
                         <thead>
@@ -342,21 +338,27 @@
                 <div>
                     <h3 class="heading">Conclusion</h3>
                     <p>
-                        This study used the social network Twitter to
-                        determine public opinion of President Elect Donald Trump
-                        on election day and the demographics of those who tweeted.
+                        This study used the social network Twitter to determine
+                        public opinion of President Elect Donald Trump on
+                        election day and the demographics of those who tweeted.
                         Though we were not able to pull "traditional"
-                        demographics, we were able to decipher sentiment from
-                        the non-traditionals that we could scrape. In the future,
-                        this study can be restructured to create more
+                        demographics, we were able to decipher sentiment from the
+                        non-traditional characteristics that we could scrape. In
+                        the future, this study can be restructured to create more
                         conclusive results by increasing the sample sizes to have
                         a more representative group of tweets. In addition to
                         enlarging the samples, other research methods are to be
-                        considered. Taking into account the weight that emoji
-                        and emoticons have in describing strong emotion and
-                        hashtags that clearly define political affiliation, as
-                        other researchers have, could show stronger opinions
-                        that have more of an effect of the results.
+                        considered. Taking into account the weight that emoji and
+                        emoticons have in describing strong emotion and hashtags
+                        that clearly define political affiliation, as other
+                        researchers have, could show stronger opinions that have
+                        more of an effect of the results. Overall, it was
+                        determined that the overwhelming majority of our sample
+                        had more neutral sentiment. Still, neutral sentiment
+                        notwithstanding, the majority of sentiment was
+                        positive-leaning which correlates to President Trump
+                        winning the popular vote.
+
                     </p>
                 </div>
             </div>
@@ -369,8 +371,9 @@
 
     <footer>
         <div class="middle">
-            Click the 's' key to see a sample of tweets. Click the 'e' key for them to go away.<br><br>
-            Nneka Osueke, Zach Scholz, and Thomas Edge.
+            Click the 's' key to see a sample of tweets. Click the 'e' key for them to go away.<br>
+            Nneka Osueke, Zach Scholz, and Thomas Edge.<br>
+            <a href="resources/tweets_schema.sql" target="_blank">EER Diagram</a> | <a href="resources/tweets_3NF_schema.pdf" target="_blank">EER Normalized Diagram</a> | <a href="resources/Data_Science_Sentiment_Analysis.pdf" target="_blank">Report</a>
         </div>
     </footer>
 </html>
